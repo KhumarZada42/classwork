@@ -1,0 +1,35 @@
+var people=[
+    {
+        name:"Kim",
+        surname:"Tae",
+        age: 42
+    },
+    {
+        name:"Khm",
+        surname:"Watson",
+        age: 44
+    },
+    {
+        name:"y",
+        surname:"Min",
+        age: 55
+    },
+    {
+        name:"K",
+        surname:"Watson",
+        age: 21
+    },
+    {
+        name:"T",
+        surname:"Steve",
+        age: 16
+    }
+]
+ 
+for (let index = 0; index < people.length; index++)
+{
+    if (people[index].surname=="Watson" && people[index].age>18)
+    
+        console.log(people[index].name)
+    
+}
